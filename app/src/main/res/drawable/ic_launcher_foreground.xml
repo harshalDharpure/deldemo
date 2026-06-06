@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Egg White Layer -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 54 20 C 34 20 20 40 20 64 C 20 82 34 92 54 92 C 74 92 88 82 88 64 C 88 40 74 20 54 20 Z" />
+    
+    <!-- Egg Yolk Layer -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M 54,64 m -18,0 a 18,18 0 1,1 36,0 a 18,18 0 1,1 -36,0" />
+    
+    <!-- Yolk Accent Layer (Shading) -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M 54,64 m -14,0 a 14,14 0 1,0 28,0 a 14,14 0 1,0 -28,0"
+        android:fillAlpha="0.15" />
+
+    <!-- Cute Specular Reflection -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 46,56 m -4,0 a 4,4 0 1,1 8,0 a 4,4 0 1,1 -8,0"
+        android:fillAlpha="0.7" />
+</vector>

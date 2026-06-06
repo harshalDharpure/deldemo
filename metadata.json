@@ -1,0 +1,6 @@
+{
+  "name": "Andawala",
+  "description": "Delivering fresh boiled eggs daily across Bangalore neighborhoods with morning and evening slots.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
